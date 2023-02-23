@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('./assets/background-photo.jpg');
+    background-position-x: center;
+    background-size: cover;
+    width: 100%;
+
+    
+}   
