@@ -1,5 +1,8 @@
 input {
     text-align: center;
+    opacity: 0.8;
+    background-color: transparent;
+    border-color: turquoise;
 }
 
 .form-control {
@@ -7,4 +10,24 @@ input {
 }
 .cursor {
     cursor: pointer;
+}
+
+.neon-border {
+    border: 2px solid #00ffff; /* Color del borde neon turquesa */
+    border-radius: 10px; /* Radio de borde */
+    padding: 10px; /* Espacio interno para el contenido */
+    background-color: transparent; /* Color de fondo */
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.4), 0 0 10px rgba(0, 255, 255, 0.4); /* Sombra neon turquesa */
+  }
+  
+li {
+    background: transparent;
+    color: #0f0f0f;
+    font-weight: 800;
+}
+.card {
+    background: none;
+    color: #00dece;
+    border: 3px solid rgb(242, 147, 242);
+    font-weight: 400;
 }

@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container mt-5 neon-border">
     <div class="row">
         <div class="col-lg-8 offset-lg-2">
             <input tyoe="text" [(ngModel)]="taskName" (keyup.enter)="addTask()"
@@ -6,7 +6,11 @@
         </div>
         <div class="col-lg-6 offset-lg-3 mt-3">
             <div *ngIf="taskList.length === 0" class="card p-2">
-                <h6>There are no tasks yet</h6>
+                <h6>There are no tasks yet 
+                    <i class="fa-sheep"></i>
+                    <i class="fa-snooze"></i>
+                </h6>
+                  
             </div>
             <ul class="list-group">
                 <li *ngFor="let task of taskList; let i = index" class="list-group-item d-flex justify-content-between">
